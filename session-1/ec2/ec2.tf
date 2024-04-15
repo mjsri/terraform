@@ -33,5 +33,3 @@ resource "aws_security_group" "roboshop-all" { #this is terraform name for terra
     Name ="roboshop-all-aws"
   }
 }
-
-#vnbdsmvbdklsnvdnvnknvnk
