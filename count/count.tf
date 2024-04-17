@@ -1,3 +1,7 @@
+#NOtes
+#By using count.index in condition we can deploy number of ec2 and route 53 by combining it to instance names
+#we can use length for counting of resources and we can create resources with names
+#By passing condition we can create different size of resources 
 resource "aws_instance" "web" {
   #count = 11
   count = length(var.instance_names)
